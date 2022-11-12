@@ -6,6 +6,11 @@ module.exports = {
     fontFamily: {
       signature: ['Great Vibes']
     },
+    // screens:{
+    //   lg: '1124px',
+    //   xl: '1124px',
+    //   '2xl': '1124px',    
+    // }
   },
   plugins: [],
 }
