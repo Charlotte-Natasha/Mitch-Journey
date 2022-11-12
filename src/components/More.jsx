@@ -25,11 +25,14 @@ const More = () => {
                     <p className='text-gray-500'>My experience as a freelancer enabled me to create an aesthetic of a mobile app and a website. I am still learning and polishing where I feel I fall short. With a lot of UI practice, I have developed a good eye for colors, typography and layout.</p>
                 </div>
                 <div className=''>
+                
+                </div>
+                <div className=''>
                 <img src={Act} alt='writing' />
                     <p className='pt-4 pb-2 text-white'>Interaction Design</p>
                     
                     <p className='text-gray-500'>Creating an Interaction between a product and a user is fascinating. I've learnt to include a strategic focus on how users interact during an experience and how that can be managed.</p>
-            </div>
+                </div>
             </div>
         </div>
     )
