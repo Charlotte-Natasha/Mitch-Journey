@@ -2,7 +2,7 @@ import React from 'react'
 
 const Work = () => {
     return (
-        <div className='bg-black h-screen p-4 '>
+        <div className='bg-black p-4 '>
             <div className='text-white md:flex-1'>
                 <h3 className='py-4 max-w-md font-medium text-gray-500'>Work Experience</h3>
                 <h2 className='text-4xl md:text-6 sm:text-6xl font-medium text-white'>Companies I have worked <br /> with.</h2>

@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 
 const Home = () => {
     return (
-        <div name='home' className='h-screen bg-black flex flex-col justify-center pb-16 md:flex-row md:items-center md:justify-between'>
+        <div name='home' className='h-screen bg-black flex flex-col justify-center pb-8 md:flex-row md:items-center md:justify-between'>
             
                 <div className='h-1/2 md:flex-1 md:w-auto '>
                     <img src={Mich} alt="my profile" className='h-[100%]'/>
@@ -19,7 +19,7 @@ const Home = () => {
                 to="portfolio"
                 smooth
                 duration={500}
-                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md border-2 border-violet-900 cursor-pointer"
+                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md border-2 border-[#5221E6] cursor-pointer"
             >
                 View Resume
                 <span className="group-hover:rotate-90 duration-300">

@@ -1,7 +1,8 @@
-import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavBar from "./components/Navbar";
 import Work from "./components/Work";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <NavBar/>
       <Home/>
       <Work/>
-      
+      <About/>
       <Footer/>
     </div>
   );
