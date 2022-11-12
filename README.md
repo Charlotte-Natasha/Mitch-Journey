@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<a target="_blank" href="https://icons8.com/icon/OW1DTtS3n-gF/loading-sign">Loading Sign</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
