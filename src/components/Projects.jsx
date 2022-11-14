@@ -10,12 +10,13 @@ const Projects = () => {
     return (
         <div className='min-h-screen text-white bg-black pt-20 pb-28 px-8'>
             <div className='max-w-6xl mx-auto'>
-                <div>
-                    <h4 className='text-gray-500'> My Projects</h4>
-                    <h1 className='pt-2 text-4xl max-w-md'>Below are some of my projects</h1>
-                </div>
 
-                <div className='mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
+                <div className='mt-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5'>
+
+                    <div className=''>
+                        <h4 className='text-gray-500'> My Projects</h4>
+                        <h1 className='pt-2 text-4xl max-w-md'>Below are some of my projects</h1>
+                    </div>
 
                     <div className='overflow-hidden rounded-md shadow-lg bg-[#181823]'>
                         <img src={Orac} alt="porfolio" className='w-full'/>

@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Contacts = () => {
+
+    const submit = ()=> {
+        alert("Message sent")
+    }
+
     return (
         <div className='antialiased bg-black'>
             <div className='flex w-full h-screen justify-center items-center text-white'>
@@ -29,7 +34,7 @@ const Contacts = () => {
                                 
                                     <textarea type="email" placeholder='Explain yourself' rows='4' className='ring-1 ring-[#5221E6] w-full rounded-md px-4 py-2 mt-2 outline-none bg-black focus:ring-2 focus:ring-violet-300'></textarea>
                                 </div>
-                                <button className='INLINE-BLOCK self-end bg-[#5221E6] rounded-lg px-6 py-2 text-small '>LET'S GET STARTED</button>
+                                <button className='inline-block self-end bg-[#5221E6] rounded-lg px-6 py-2 text-small' onClick={submit}>LET'S GET STARTED</button>
                             </form>
                         </div>
                     </div>
