@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div name='home' className='h-screen bg-black flex flex-col justify-center pb-8 md:flex-row md:items-center md:justify-between'>
             
-                <div className='h-1/2 md:flex-1 md:w-auto '>
+                <div className='h-1/2 md:flex-1 md:w-auto'>
                     <img src={Mich} alt="my profile" className='h-[100%]'/>
                 </div>
 
