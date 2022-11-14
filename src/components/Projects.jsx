@@ -1,6 +1,9 @@
 import React from 'react'
 import Orac from '../images/porfolio/orac.png'
 import Circle from '../images/circles.png'
+import Hisani from '../images/porfolio/hisani.png'
+import Switchlife from '../images/porfolio/switchlife.jpeg'
+import Telkom from '../images/porfolio/telkom.png'
 
 
 const Projects = () => {
@@ -14,11 +17,35 @@ const Projects = () => {
                 <div className='grid grid-cols-1 bg-[#181823] mt-16'>
                     <div className='rounded-md shadow-md '>
                         <img src={Orac} alt="porfolio" className='w-full h-82 object-cover'/>
-                        <div className='p_8'>
+                        <div className='p-8'>
                             <h1 className='text-3xl'>Orac Website Design</h1>
                             <p className='text-gray-500 py-3'>I worked with the Orac team, a startup, to design their entire website and mobile view from both Android and IOS. This project lasted a month and it was one of my best works.</p>
                             <a href="https://www.behance.net/gallery/150736879/Orac-Website" className='text-right'><img src={Circle} alt="" target="blank"/></a>
                         </div>
+                        <div className='rounded-md shadow-md '>
+                        <img src={Hisani} alt="porfolio" className='w-full h-82 object-cover'/>
+                        <div className='p-8'>
+                            <h1 className='text-3xl'>Orac Website Design</h1>
+                            <p className='text-gray-500 py-3'>I worked with the Orac team, a startup, to design their entire website and mobile view from both Android and IOS. This project lasted a month and it was one of my best works.</p>
+                            <a href="https://www.behance.net/gallery/150736879/Orac-Website" className='text-right'><img src={Circle} alt="" target="blank"/></a>
+                        </div>
+                    </div>
+                    <div className='rounded-md shadow-md '>
+                        <img src={Switchlife} alt="porfolio" className='w-full h-82 object-cover'/>
+                        <div className='p-8'>
+                            <h1 className='text-3xl'>Orac Website Design</h1>
+                            <p className='text-gray-500 py-3'>I worked with the Orac team, a startup, to design their entire website and mobile view from both Android and IOS. This project lasted a month and it was one of my best works.</p>
+                            <a href="https://www.behance.net/gallery/150736879/Orac-Website" className='text-right'><img src={Circle} alt="" target="blank"/></a>
+                        </div>
+                    </div>
+                    <div className='rounded-md shadow-md '>
+                        <img src={Telkom} alt="porfolio" className='w-full h-82 object-cover'/>
+                        <div className='p-8'>
+                            <h1 className='text-3xl'>Orac Website Design</h1>
+                            <p className='text-gray-500 py-3'>I worked with the Orac team, a startup, to design their entire website and mobile view from both Android and IOS. This project lasted a month and it was one of my best works.</p>
+                            <a href="https://www.behance.net/gallery/150736879/Orac-Website" className='text-right'><img src={Circle} alt="" target="blank"/></a>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
