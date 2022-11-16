@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       colors:{
         'black':colors.black
-      }
+      },
+      backgroundImage: (theme) => ({
+        book: "url('../src/images/about.jpeg')",
+      }),
     },
     fontFamily: {
       signature: ['Great Vibes']

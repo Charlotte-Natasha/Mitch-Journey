@@ -15,7 +15,7 @@ const Projects = () => {
 
                     <div className=''>
                         <h4 className='text-gray-500'> My Projects</h4>
-                        <h1 className='pt-2 text-4xl max-w-md'>Below are some of my projects</h1>
+                        <h1 className='pt-2 text-4xl max-w-md '>Below are some of my projects</h1>
                     </div>
 
                     <div className='overflow-hidden rounded-md shadow-lg bg-[#181823]'>
