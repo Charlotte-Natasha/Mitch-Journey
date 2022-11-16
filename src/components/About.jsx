@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 const About = () => {
     return (
-        <section className='h-screen flex flex-col md:flex-row md:items-center md:justify-between text-white bg-[#181823]'>
+        <section name='about' className='h-screen flex flex-col md:flex-row md:items-center md:justify-between text-white bg-[#181823]'>
             
             <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 '>
                 <div className='p-8 pt-1'>
