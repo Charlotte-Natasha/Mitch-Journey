@@ -8,7 +8,7 @@ import Telkom from '../images/porfolio/telkom.png'
 
 const Projects = () => {
     return (
-        <div className='min-h-screen text-white bg-black pt-20 pb-28 px-8'>
+        <div name='projects' className='min-h-screen text-white bg-black pt-20 pb-28 px-8'>
             <div className='max-w-6xl mx-auto'>
 
                 <div className='mt-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5'>

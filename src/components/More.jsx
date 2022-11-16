@@ -6,7 +6,7 @@ import Act from '../images/interaction.png'
 
 const More = () => {
     return (
-        <div className='bg-black p-4'>
+        <div name='more' className='bg-black p-4'>
             <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-8 items-center py-8 text-white '>
                 <div>
                     <h1 className='text-4xl lg:text-6xl pb-8'>Skillset</h1>
